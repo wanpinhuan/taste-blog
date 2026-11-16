@@ -12,4 +12,4 @@ directory = "./public"
 [[d1_databases]]
 binding = "DB"
 database_name = "taste-blog-db"
-database_id ="63fe01f9-bde1-4ba4-8f2c-ccaa536728d5"
+database_id = "63fe01f9-bde1-4ba4-8f2c-ccaa536728d5"

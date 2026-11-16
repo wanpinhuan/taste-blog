@@ -11,5 +11,5 @@ directory"./public"
 # 数据库（D1，免费额度足够个人博客用很多年）
 [[d1_databases]]
 binding"DB"
-database_name"taste-blog-db"
+database_name = "taste-blog-db"
 database_id"63fe01f9-bde1-4ba4-8f2c-ccaa536728d5"

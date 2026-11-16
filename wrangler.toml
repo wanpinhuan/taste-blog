@@ -1,15 +1,15 @@
 # ============ Cloudflare 部署配置 ============
 # 部署前只需把下面的 database_id 换成你自己的（README 有一条创建命令）
-name"taste-blog"
-
-compatibility_date"2025-01-01"
+name = "taste-blog"
+main = "src/worker.js"
+compatibility_date = "2025-01-01"
 
 # 静态资源（样式 / 字体 / 图片）由 Cloudflare 直接托管，动态页面进 Worker
 [assets]
-directory"./public"
+directory = "./public"
 
 # 数据库（D1，免费额度足够个人博客用很多年）
 [[d1_databases]]
-binding"DB"
+binding = "DB"
 database_name = "taste-blog-db"
-database_id"63fe01f9-bde1-4ba4-8f2c-ccaa536728d5"
+database_id ="63fe01f9-bde1-4ba4-8f2c-ccaa536728d5"

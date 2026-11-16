@@ -13,3 +13,7 @@ directory = "./public"
 binding = "DB"
 database_name = "taste-blog-db"
 database_id = "63fe01f9-bde1-4ba4-8f2c-ccaa536728d5"
+
+[[kv_namespaces]]
+binding = "SESSION_KV"
+id = "37db0ab02ea244f3ab2c24c88e765f88"
